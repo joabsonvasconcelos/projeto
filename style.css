@@ -178,16 +178,22 @@ footer {
 }
 
 #container-portfiolio {
-  width: 100%;
-  max-width: 300px;
-  margin: 25px 50px 0px 25px;
-  padding: 0px 24px;
+  display: inline-block;
+
+  width: 250px;
+  margin: 25px 10px 0px 50px;
+
+  border-radius: 5px;
+  background-color: #302f3d;
+
+  line-height: 25px;
+  padding: 10px 10px 10px 10px;
 }
 
 #profile-portfiolio {
   text-align: center;
   padding: 24px;
-  background-color: #1c1c1c;
+  background-color: #302f3d;
   border-radius: 5%;
 }
 #profile-portfiolio img {
@@ -206,6 +212,28 @@ footer {
   color: #00ff7f;
   padding: 10 px;
 }
+#my-projects {
+  display: inline-block;
+  position: absolute;
+
+  margin: 25px 25px 25PX 0px;
+  width: 90%;
+  border-radius: 5px;
+  background-color: #302f3d;
+}
+#my-projects p {
+  font-size: 12px;
+  padding: 10px 10PX 10px 10px;
+}
+#box-pro {
+   display: inline-block;
+   position: absolute;
+   width: 80%;
+   margin: 90px 10PX 10px 5px;
+  border-radius: 5px;
+  background-color: #302f3d;
+  padding: 100PX;
+}
 
 #social-links-portfolio {
   font-size: 14px;
@@ -215,7 +243,7 @@ footer {
   margin: 10px 0px 0px 50px;
   padding: 10px;
   border-radius: 5px;
-  background-color: #1c1c1c;
+  background-color: #302f3d;
   line-height: 25px;
 }
 #social-links-portfolio:hover {
@@ -240,7 +268,7 @@ footer {
   margin: 10px 0px 0px 50px;
 
   border-radius: 5px;
-  background-color: #1c1c1c;
+  background-color: #302f3d;
 
   line-height: 25px;
   padding: 10px 10px 10px 10px;
